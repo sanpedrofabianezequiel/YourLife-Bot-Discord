@@ -14,16 +14,17 @@
 4. Install Discords JS "npm install discord.js" => Crea el package-lock.json
 5. Inside "botYourLife.ts" write "import { Clients } from 'discord.js'"
 6. Create server inside discord
-7. Created user in Link=> and new application  [Link]("https://discord.com/developers/applications") 
+7. Created user in Link=> and new application  [Link]("https://discord.com/developers/applications/") 
 8. Go to option "Bot" and click "add bot"
 9. Created Token 
-10. - variable.login('token');
-11. Create "enviroment"   npm i dotenv   => or npm i dotenv -D  (that is developer)  => that created  
-___Inside package.json___
-"dependencies": {
-    "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0"
-  }
+10. variable.login('token');
+11. - Create "enviroment"   npm i dotenv   => or npm i dotenv -D  (that is developer)  => 
+    - that created  
+    - ___Inside package.json___
+    - "dependencies": {
+    - "discord.js": "^12.5.3",
+    - "dotenv": "^10.0.0"
+    - }
 12. Created file ".env"
 13. Created variable = token
 14. UP File => i write Import  and define variables enviroment =>  import {config} 'dotenv';
