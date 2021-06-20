@@ -14,7 +14,7 @@
 4. Install Discords JS "npm install discord.js" => Crea el package-lock.json
 5. Inside "botYourLife.ts" write "import { Clients } from 'discord.js'"
 6. Create server inside discord
-7. Created user in Link=> and new application  "https://discord.com/developers/applications/".
+7. Created user in Link=> and new application  [Link](https://discord.com/developers/applications/) 
 8. Go to option "Bot" and click "add bot"
 9. Created Token 
 10. variable.login('token');
