@@ -1,5 +1,11 @@
 ## Your Life 
+[] This is Amazing!
+[x] This is cool!
 ### Created for San Pedro Fabian Ezequiel
+
+|Application|Developer|
+|--------|--------|
+|   Your life Discord Bot  |  San Pedro Ezequiel |
 
 ***Instructions***
 1. npm init -y  =>created pack.json
@@ -8,7 +14,7 @@
 4. Install Discords JS "npm install discord.js" => Crea el package-lock.json
 5. Inside "botYourLife.ts" write "import { Clients } from 'discord.js'"
 6. Create server inside discord
-7. Created user in "https://discord.com/developers/applications" and new application
+7. Created user in  [Link]("https://discord.com/developers/applications") and new application
 8. Go to option "Bot" and click "add bot"
 9. Created Token 
 10. - variable.login('token');
@@ -41,13 +47,13 @@ ___Inside package.json___
 26. Execute application "node deploy/botYourLife.js
 
 --------------------
-27 - Update performance for execute npx tsc . We need install
+27. Update performance for execute npx tsc . We need install
   "npm i nodemon"
-28 - Configure package.json
+28. Configure package.json
 "scripts": {
     "build":"tsc",
     "start":"node deploy/botYourLife.js",  
     "yourLife":"nodemon -e ts --exec  \"npm run build && npm start\""  => -e is extension
   },
-29- Set  "resolveJsonModule": true in tsconfig.json pra utilizarlo en el bot.ts => poder importarlo
-30- emoticones https://emojipedia.org/rocket/
+29. Set  "resolveJsonModule": true in tsconfig.json pra utilizarlo en el bot.ts => poder importarlo
+30. Emoticones  [Link](https://emojipedia.org/rocket/)
