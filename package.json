@@ -1,0 +1,23 @@
+{
+  "name": "DiscordBot",
+  "version": "1.0.0",
+  "description": "1 - npm init -y  =>created pack.json",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "start":"node deploy/botYourLife.js",
+    "yourLife":"nodemon -e ts --exec \"npm run build && npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4"
+  }
+}
