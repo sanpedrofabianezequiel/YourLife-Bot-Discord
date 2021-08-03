@@ -7,7 +7,7 @@ const client: Client = new Client();
 client.on('ready', ()=>{
 
 });
-
+//We created one  Databse
 client.on('message',async (mess :Message)=>{ //we can set type data
     if(mess.content.startsWith(`${prefix}help`)){
         mess.reply('Welcome to Your Life,  Copyright © YourLife   ®San Pedro Fabian Ezequiel');
